@@ -156,7 +156,7 @@
             android:layout_marginTop="10dp"
             android:textSize="15sp"
             android:textColor="#03A9F4"
-            android:text="© 2019 Copyright: Imtiaz © Delware"
+            android:text="© 2019 Copyright: Imtiaz"
             android:textStyle="bold"/>
 
     </LinearLayout>

@@ -1,4 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
 
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile_id"
+            android:title="Profile"
+            android:icon="@drawable/ic_profile"/>
+        <item
+            android:id="@+id/nav_class_routine_id"
+            android:title="Routine"
+            android:icon="@drawable/ic_class_routine"/>
+        <item
+            android:id="@+id/nav_attendance_id"
+            android:title="Attendance"
+            android:icon="@drawable/ic_attendance"/>
+        <item
+            android:id="@+id/nav_result_id"
+            android:title="Result"
+            android:icon="@drawable/ic_result"/>
+        <item
+            android:id="@+id/nav_holydays_id"
+            android:title="Holydays"
+            android:icon="@drawable/ic_holydays"/>
+        <item
+            android:id="@+id/nav_notice_id"
+            android:title="Notice"
+            android:icon="@drawable/ic_notice"/>
+    </group>
+
+    <item android:title="About Us">
+        <menu>
+            <item
+                android:id="@+id/nav_about_id"
+                android:title="About"
+                android:icon="@drawable/ic_about"/>
+            <item
+                android:id="@+id/nav_contact_id"
+                android:title="Contact"
+                android:icon="@drawable/ic_call"/>
+        </menu>
+    </item>
 </menu>
